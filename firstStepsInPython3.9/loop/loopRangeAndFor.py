@@ -14,7 +14,7 @@ for sgame in sport_games:
   print(sgame)
 
 # Using Range:
-promise = "I will finish the python loops module!"
+promise = "I will finish the python loop module!"
 
 for temporary in range(5):
   print(promise)

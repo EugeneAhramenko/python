@@ -15,5 +15,16 @@ print("While Loop ended")
 # Count down from 10 to 0(inclusive)
 countdown = 10
 while countdown >= 0:
+  print(countdown)
   countdown -= 1
-  print("We have liftoff!")
+print("We have liftoff!")
+
+# While Loops List
+python_topics = ["variables", "control flow", "loops", "modules", "classes"]
+
+length = len(python_topics)
+index = 0
+
+while index < length:
+  print("I am learning about " + python_topics[index])
+  index += 1

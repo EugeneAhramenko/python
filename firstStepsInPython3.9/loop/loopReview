@@ -1,0 +1,21 @@
+"""
+ Review Loops:
+ 1. Create a list called single_digits that consists of the numbers 0-9 (inclusive).
+ 2. Create a for loop that goes through single_digits and prints out each one.
+ 3. Inside the loop that iterates through single_digits, append the squared value of each element of single_digits to
+ the list squares.
+ 4. Create the list cubes using a list comprehension on the single_digits list. Each element of cubes should be
+ an element of single_digits taken to the third power.
+ """
+
+single_digits = (list(range(10)))
+squares = []
+
+for temp in single_digits:
+  squares.append(temp ** 2)
+  print(temp)
+print(squares)
+
+cubes = [cub ** 3 for cub in single_digits]
+print(cubes)
+
