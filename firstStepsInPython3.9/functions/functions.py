@@ -58,3 +58,4 @@ def trip_planner(first_destination, second_destination, final_destination = "Cod
   print("First, we will stop in " + first_destination + ", then " +    second_destination + ", and lastly " + final_destination)
 
 trip_planner("Brooklyn",second_destination="Queens")
+
