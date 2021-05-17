@@ -9,7 +9,8 @@ print(num_two_dollar_slices)
 print("We sell " + str(num_pizzas) + " different kinds of pizaa!")
 
 # Convert toppings and prices lists into a two-dimensional list:
-pizza_and_prices = [[2, "pepperoni"], [6, "pineapple"], [1, "cheese"], [3, "sausage"], [2, "olives"], [7, "anchovies"], [2, "mushrooms"]]
+pizza_and_prices = [[2, "pepperoni"], [6, "pineapple"], [1, "cheese"], [3, "sausage"], [2, "olives"], [7, "anchovies"],
+                    [2, "mushrooms"]]
 print(pizza_and_prices)
 
 # Sorting and Slicing Pizzas:

@@ -22,7 +22,8 @@ range_diff_five = range(0, 40, 5)
 print(list(range_diff_five))
 
 # Length:
-long_list = [1, 5, 6, 7, -23, 69.5, True, "very", "long", "list", "that", "keeps", "going.", "Let's", "practice", "getting", "the", "length"]
+long_list = [1, 5, 6, 7, -23, 69.5, True, "very", "long", "list", "that", "keeps", "going.", "Let's", "practice",
+             "getting", "the", "length"]
 long_list_len = len(long_list)
 print(long_list_len)
 
@@ -45,13 +46,15 @@ print(last_two_elements)
 print(slice_off_last_three)
 
 # Counting in a List
-votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
+votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake",
+         "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
 jake_votes = votes.count("Jake")
 print(jake_votes)
 
 # Sorting Lists I
 # Sorting Lists I:
-addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
+addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace",
+             "1600 Pennsylvania Ave", "10 Downing St."]
 addresses.sort()
 print(addresses)
 
