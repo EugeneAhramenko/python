@@ -52,6 +52,3 @@ def odd_indices(lst):
   return indices
 
 print(odd_indices([4, 3, 7, 10, 11, -2]))
-
-
-
